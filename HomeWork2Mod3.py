@@ -112,9 +112,9 @@ MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
 #   x y z - для координат
 
 # никогда не используйте в названиях переменных одиночные l, I, O  !
-Num1 = 34
-Num2 = 43
-if Num1 > Num2:
+num1 = 34
+num2 = 43
+if num1 > num2:
     print()
 O = 9
 if O > 0:
@@ -135,8 +135,8 @@ if O > 0:
 
 # автоматическое переименование в PyCharm и подсказки - вам не нужно набирать длинные названия переменных
 
-Animals = ['cat', 'wolf', 'ostrich']
-if 'lion' in Animals:
+animals = ['cat', 'wolf', 'ostrich']
+if 'lion' in animals:
     print('Wow!')
 
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
